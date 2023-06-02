@@ -2,6 +2,7 @@ import streamlit as st
 import cv2
 from mtcnn import MTCNN 
 
+# comment
 detector = MTCNN()
 
 def detect_bounding_box(vid):
